@@ -1,0 +1,31 @@
+.table_style {
+    border-collapse: collapse;
+    min-width: 400px;
+    width: auto;
+    box-shadow: 0 5px 50px black;
+    cursor: pointer;
+    margin: 100px auto;
+    border: 2px solid;
+}
+
+thead tr {
+    background-color: burlywood;
+    color: black;
+    text-align: center;
+}
+
+th,
+td {
+    padding: 15px 20px;
+}
+
+tbody,
+th,
+td,
+tr {
+    border: 1px solid;
+}
+
+tbody tr:nth-child(event) {
+    background-color: gray;
+}

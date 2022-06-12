@@ -1,0 +1,16 @@
+body{
+    color: white;
+    background: linear-gradient(135deg,#71e7b6,#9b59b6);
+    min-height: 100vh;
+}
+h2{
+    font-size: x-large;
+    text-align: center;
+    margin-top: 50px;
+}
+.renseignement{
+    font-size: large;
+    text-align: center;
+    transform: translateX(-80px);
+    font-weight: bold;
+}
